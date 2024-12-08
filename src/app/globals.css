@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* globals.css */
+
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Gruppo&family=Orbitron:wght@400..900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Stalinist+One&display=swap');
+
+/* Apply Gruppo font globally */
+body {
+  font-family: 'Gruppo', sans-serif;  /* Apply Gruppo font */
+  font-weight: bold;  /* Make everything bold */
+  font-size: 22px; /* Increase font size globally */
+}
+
+/* Optional: Adjust font size for headings and specific elements */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 3rem; /* Larger font size for headings */
+}
+
+p, li, span, div {
+  font-size: 22px; /* Increase font size for paragraphs, lists, etc. */
+}
