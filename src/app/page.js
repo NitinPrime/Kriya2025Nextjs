@@ -2,6 +2,7 @@
 
 import React from "react";
 import CountdownTimer from "../components/CountdownTimer";
+import Image from "next/image";
 
 function App() {
   return (
@@ -29,7 +30,15 @@ function App() {
             "linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))",
         }}
       ></div>
-      <image />
+      <div>
+      {/* <Image
+      src="/whiteKriya.png"
+      width={500}
+      height={100}
+      alt="Picture of the author"
+    /> */}
+      </div>
+      
       {/* Kriya Title Section */}
       <div className="w-full text-center relative z-20 mt-2 lg:mt-6">
         <h1 className="text-6xl sm:text-7xl font-extrabold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
@@ -47,7 +56,7 @@ function App() {
       {/* Mark Your Calendar Section */}
       <div className="text-center space-y-4 mt-8 relative z-20">
         <h2 className="text-3xl font-semibold text-gray-300">
-          Mark your <span className="text-pink-500 text-3xl">calendar</span>
+          Mark your <span className="text-pink-500 text-3xl">Calendar</span>
         </h2>
         <p className="text-gray-350 text-lg max-w-lg mx-auto">
           Join us at the forefront of technological advancements and gain
