@@ -29,24 +29,17 @@ function App() {
         }}
       ></div>
 
-      {/* Kriya 2025 Logo */}
-      <div className="absolute inset-0 flex justify-center items-center z-10">
-        <img
-          src="/kriya-2025-black.png"
-          alt="Kriya 2025"
-          className="w-96 md:w-[500px] opacity-70 filter invert-0 hue-rotate-270 saturate-150"
-        />
-      </div>
+      
 
-      {/* Kriya Title Section */}
-      <div className="w-full text-center relative z-20 mt-6">
-        <h1 className="text-6xl sm:text-7xl font-extrabold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
-          Kriya 2025
-        </h1>
-        <p className="text-2xl font-semibold text-gray-300 mt-4">
-          The Ultimate Tech Symposium
-        </p>
-      </div>
+<div className="w-full text-center relative z-20 mt-6">
+  <img
+    src="/titleImage.png" // Corrected image path
+    alt="Kriya 2025"
+    className="w-64 md:w-[300px] mx-auto opacity-70 filter invert-0 hue-rotate-270 saturate-150" // Further reduced size and centered with mx-auto
+  />
+</div>
+
+
 
       {/* Dates Revealing In Section */}
       <div className="flex flex-col items-center mt-10 relative z-20">
