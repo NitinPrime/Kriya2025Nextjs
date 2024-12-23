@@ -31,12 +31,11 @@ function App() {
 
       {/* Kriya 2025 Logo */}
       <div className="absolute inset-0 flex justify-center items-center z-10">
-      <img
-  src="/kriya-2025-black.png"
-  alt="Kriya 2025"
-  className="w-96 md:w-[500px] opacity-70 filter invert-0 hue-rotate-270 saturate-150"
-/>
-
+        <img
+          src="/kriya-2025-black.png"
+          alt="Kriya 2025"
+          className="w-96 md:w-[500px] opacity-70 filter invert-0 hue-rotate-270 saturate-150"
+        />
       </div>
 
       {/* Kriya Title Section */}
@@ -49,8 +48,9 @@ function App() {
         </p>
       </div>
 
-      {/* Countdown Section */}
-      <div className="flex flex-col md:flex-row justify-center items-center gap-12 md:gap-16 mt-10 w-full relative z-20">
+      {/* Dates Revealing In Section */}
+      <div className="flex flex-col items-center mt-10 relative z-20">
+        <h2 className="text-5xl font-semibold text-pink-400 mb-4">Dates Revealing In</h2>
         <CountdownTimer />
       </div>
 
