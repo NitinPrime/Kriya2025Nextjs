@@ -69,7 +69,7 @@ function App() {
             className="bg-pink-500 text-white font-bold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:border-2 hover:border-green-500 animate-pulseColor"
             onClick={() => {
               window.open(
-                "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Kriya+2025+-+The+Ultimate+Tech+Symposium&details=Join+us+for+a+day+of+innovation+and+networking+at+Kriya+2025!&location=PSG+College+of+Technology,+Coimbatore&dates=20250204T090000Z/20250204T180000Z",
+                "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Kriya+2025+-+The+Ultimate+Tech+Symposium&details=Join+us+for+a+day+of+innovation+and+networking+at+Kriya+2025!&location=PSG+College+of+Technology,+Coimbatore&dates=20250314T090000Z/20250314T180000Z",
                 "_blank"
               );
             }}

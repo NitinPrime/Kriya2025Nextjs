@@ -88,8 +88,8 @@ const Section9 = () => {
                             <h5 className="text-xs tracking-widest mt-8">Technical Support
                             </h5>
                             <ContactItem
-                                name="Ranjith"
-                                phone="+91 75400 69423"
+                                name="Abinav"
+                                phone="+91 99655 11133"
 
                             />
                         </div>
